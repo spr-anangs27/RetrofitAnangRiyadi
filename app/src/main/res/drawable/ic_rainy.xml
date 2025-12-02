@@ -1,0 +1,31 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+  <!-- Layer Awan (Biru) -->
+  <path
+      android:fillColor="#2072B9"
+      android:pathData="M26,60 L74,60 C85,60 92,52 92,42 C92,32 84,24 74,24 C72,12 60,6 48,6 C36,6 26,14 24,24 C14,24 6,32 6,42 C6,52 14,60 26,60 Z" />
+
+  <!-- Layer Hujan (Abu-abu Gelap) -->
+  <!-- Menggunakan stroke dengan round cap agar ujungnya membulat seperti pil -->
+  <path
+      android:strokeColor="#36414D"
+      android:strokeWidth="6"
+      android:strokeLineCap="round"
+      android:pathData="
+        M25,75 L22,85
+        M37,75 L34,85
+        M49,75 L46,85
+        M61,75 L58,85
+        M73,75 L70,85
+
+        M25,92 L22,102
+        M37,92 L34,102
+        M49,92 L46,102
+        M61,92 L58,102
+        M73,92 L70,102
+        " />
+</vector>

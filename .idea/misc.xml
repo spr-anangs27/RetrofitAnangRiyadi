@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/project_android/retrofit/app/src/main/res/drawable/bg_card_glass.xml" value="0.14322916666666666" />
+        <entry key="..\:/project_android/retrofit/app/src/main/res/drawable/bg_circle_dark.xml" value="0.14322916666666666" />
+        <entry key="..\:/project_android/retrofit/app/src/main/res/drawable/bg_circle_red.xml" value="0.14322916666666666" />
+        <entry key="..\:/project_android/retrofit/app/src/main/res/drawable/bg_circle_white.xml" value="0.14322916666666666" />
+        <entry key="..\:/project_android/retrofit/app/src/main/res/drawable/bg_glass_card.xml" value="0.14322916666666666" />
+        <entry key="..\:/project_android/retrofit/app/src/main/res/drawable/bg_gradient.xml" value="0.14322916666666666" />
+        <entry key="..\:/project_android/retrofit/app/src/main/res/drawable/bg_gradient_primary.xml" value="0.14322916666666666" />
+        <entry key="..\:/project_android/retrofit/app/src/main/res/drawable/bg_item_rounded.xml" value="0.14322916666666666" />
+        <entry key="..\:/project_android/retrofit/app/src/main/res/drawable/bg_nothing_card.xml" value="0.14322916666666666" />
+        <entry key="..\:/project_android/retrofit/app/src/main/res/drawable/bg_nothing_input.xml" value="0.26614583333333336" />
+        <entry key="..\:/project_android/retrofit/app/src/main/res/drawable/bg_rounded_top.xml" value="0.14322916666666666" />
+        <entry key="..\:/project_android/retrofit/app/src/main/res/drawable/ic_refresh.xml" value="0.14322916666666666" />
+        <entry key="..\:/project_android/retrofit/app/src/main/res/drawable/ic_search_icon.xml" value="0.14322916666666666" />
+        <entry key="..\:/project_android/retrofit/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/project_android/retrofit/app/src/main/res/layout/activity_search.xml" value="0.12708333333333333" />
+        <entry key="..\:/project_android/retrofit/app/src/main/res/layout/activity_weather.xml" value="0.136" />
+        <entry key="..\:/project_android/retrofit/app/src/main/res/layout/fragment_first.xml" value="0.12708333333333333" />
+        <entry key="..\:/project_android/retrofit/app/src/main/res/layout/fragment_second.xml" value="0.12708333333333333" />
+        <entry key="..\:/project_android/retrofit/app/src/main/res/layout/item_daily_forecast.xml" value="0.264" />
+        <entry key="..\:/project_android/retrofit/app/src/main/res/layout/item_location.xml" value="0.24456521739130435" />
+        <entry key="..\:/project_android/retrofit/app/src/main/res/layout/item_weather_hour.xml" value="0.24456521739130435" />
+        <entry key="..\:/project_android/retrofit/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.26614583333333336" />
+        <entry key="..\:/project_android/retrofit/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.26614583333333336" />
+        <entry key="..\:/weather_app-main/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.15" />
+        <entry key="..\:/weather_app-main/app/src/main/res/drawable/bg_bottom_sheet.xml" value="0.19166666666666668" />
+        <entry key="..\:/weather_app-main/app/src/main/res/drawable/bg_card_glass.xml" value="0.11944444444444445" />
+        <entry key="..\:/weather_app-main/app/src/main/res/drawable/bg_circle_dark.xml" value="0.19166666666666668" />
+        <entry key="..\:/weather_app-main/app/src/main/res/drawable/bg_circle_red.xml" value="0.19166666666666668" />
+        <entry key="..\:/weather_app-main/app/src/main/res/drawable/bg_circle_white.xml" value="0.19166666666666668" />
+        <entry key="..\:/weather_app-main/app/src/main/res/drawable/bg_glass_blur.xml" value="0.1" />
+        <entry key="..\:/weather_app-main/app/src/main/res/drawable/bg_glass_card.xml" value="0.19166666666666668" />
+        <entry key="..\:/weather_app-main/app/src/main/res/drawable/bg_gradient_primary.xml" value="0.1875" />
+        <entry key="..\:/weather_app-main/app/src/main/res/drawable/bg_nothing_card.xml" value="0.1875" />
+        <entry key="..\:/weather_app-main/app/src/main/res/drawable/bg_nothing_input.xml" value="0.19166666666666668" />
+        <entry key="..\:/weather_app-main/app/src/main/res/drawable/bg_pill_translucent.xml" value="0.11944444444444445" />
+        <entry key="..\:/weather_app-main/app/src/main/res/drawable/bg_rounded_top.xml" value="0.19166666666666668" />
+        <entry key="..\:/weather_app-main/app/src/main/res/drawable/ic_cloudy.xml" value="0.19166666666666668" />
+        <entry key="..\:/weather_app-main/app/src/main/res/drawable/ic_rainy.xml" value="0.19166666666666668" />
+        <entry key="..\:/weather_app-main/app/src/main/res/drawable/ic_refresh.xml" value="0.19166666666666668" />
+        <entry key="..\:/weather_app-main/app/src/main/res/drawable/ic_search_icon.xml" value="0.19166666666666668" />
+        <entry key="..\:/weather_app-main/app/src/main/res/drawable/ic_sunny.xml" value="0.19166666666666668" />
+        <entry key="..\:/weather_app-main/app/src/main/res/drawable/ic_thunder.xml" value="0.19166666666666668" />
+        <entry key="..\:/weather_app-main/app/src/main/res/drawable/progress_temp_gradient.xml" value="0.11944444444444445" />
+        <entry key="..\:/weather_app-main/app/src/main/res/layout/activity_main.xml" value="0.17135416666666667" />
+        <entry key="..\:/weather_app-main/app/src/main/res/layout/activity_search.xml" value="0.17135416666666667" />
+        <entry key="..\:/weather_app-main/app/src/main/res/layout/item_daily_forecast.xml" value="0.17135416666666667" />
+        <entry key="..\:/weather_app-main/app/src/main/res/layout/item_location.xml" value="0.17135416666666667" />
+        <entry key="..\:/weather_app-main/app/src/main/res/layout/item_weather_hour.xml" value="0.17135416666666667" />
+        <entry key="..\:/weather_app-main/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/weather_app-main/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.15" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

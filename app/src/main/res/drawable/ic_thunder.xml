@@ -1,0 +1,42 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+  <!-- Layer 1: Petir (Digambar duluan agar berada di belakang awan) -->
+  <!-- Petir Kiri -->
+  <path
+      android:fillColor="#FFEB3B"
+      android:pathData="M38,45 L30,65 L40,65 L25,95 L50,60 L40,60 L48,45 Z" />
+
+  <!-- Petir Kanan -->
+  <path
+      android:fillColor="#FFEB3B"
+      android:pathData="M65,45 L58,65 L68,65 L55,90 L78,60 L68,60 L75,45 Z" />
+
+  <!-- Layer 2: Tetesan Hujan -->
+  <path
+      android:fillColor="#29B6F6"
+      android:pathData="
+        M25,55 Q22,62 25,65 Q28,62 25,55
+        M15,75 Q12,82 15,85 Q18,82 15,75
+        M35,70 Q32,77 35,80 Q38,77 35,70
+        M85,55 Q82,62 85,65 Q88,62 85,55
+        M70,75 Q67,82 70,85 Q73,82 70,75
+        M90,70 Q87,77 90,80 Q93,77 90,70
+        " />
+
+  <!-- Layer 3: Awan (Fill Biru Muda) -->
+  <path
+      android:fillColor="#29B6F6"
+      android:strokeWidth="3"
+      android:strokeColor="#01579B"
+      android:strokeLineJoin="round"
+      android:pathData="M20,45
+        C10,45 5,30 20,25
+        C25,10 55,5 65,20
+        C85,10 95,30 85,45
+        L20,45 Z" />
+
+</vector>

@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/nothing_black"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="24dp"
+        android:paddingBottom="40dp"
+        android:paddingHorizontal="16dp">
+
+        <!-- HEADER TOP BAR -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp">
+
+            <!-- Back Button -->
+            <ImageView
+                android:id="@+id/btnBack"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@android:drawable/ic_media_previous"
+                app:tint="@color/nothing_white"
+                android:layout_alignParentStart="true"
+                android:contentDescription="Back"/>
+
+            <!-- Nama Lokasi -->
+            <TextView
+                android:id="@+id/tvLokasi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="LOADING..."
+                android:fontFamily="monospace"
+                android:textSize="14sp"
+                android:textAllCaps="true"
+                android:letterSpacing="0.1"
+                android:textColor="@color/nothing_gray_text" />
+
+            <!-- Settings Icon -->
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@android:drawable/ic_menu_preferences"
+                app:tint="@color/nothing_white"
+                android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+
+        <!-- DOT INDICATOR -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginBottom="24dp">
+            <View android:layout_width="6dp" android:layout_height="6dp" android:background="@drawable/bg_circle_red"/>
+            <View android:layout_width="6dp" android:layout_height="6dp" android:layout_marginStart="6dp" android:background="@drawable/bg_circle_dark"/>
+        </LinearLayout>
+
+        <!-- HERO SECTION -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginBottom="32dp">
+
+            <TextView
+                android:id="@+id/tvSuhu"
+                android:text="--°"
+                android:textSize="80sp"
+                android:fontFamily="monospace"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:includeFontPadding="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvFeelsLike"
+                android:text="FEELS LIKE --°"
+                android:textSize="14sp"
+                android:fontFamily="monospace"
+                android:textColor="@color/nothing_gray_text"
+                android:textAllCaps="true"
+                android:layout_marginBottom="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <!-- Icon -->
+            <ImageView
+                android:id="@+id/ivMainIcon"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginBottom="16dp"
+                app:tint="@color/white"
+                android:src="@drawable/ic_sunny"/>
+
+            <TextView
+                android:id="@+id/tvCuaca"
+                android:text="LOADING DATA..."
+                android:textSize="16sp"
+                android:fontFamily="monospace"
+                android:textAllCaps="true"
+                android:letterSpacing="0.1"
+                android:textColor="@color/nothing_gray_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tvLastUpdate"
+                android:text="UPDATED: -"
+                android:textSize="10sp"
+                android:fontFamily="monospace"
+                android:textAllCaps="true"
+                android:textColor="@color/nothing_red"
+                android:layout_marginTop="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <!-- ============================================== -->
+        <!-- GRID DETAILS (8 LINGKARAN - DATA LENGKAP) -->
+        <!-- ============================================== -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="32dp">
+
+            <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#333333" android:layout_marginBottom="24dp"/>
+
+            <!-- ROW 1 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+                <!-- 1. Temp Range (White) -->
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center">
+                    <LinearLayout android:layout_width="72dp" android:layout_height="72dp" android:background="@drawable/bg_circle_white" android:gravity="center" android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="TEMP" android:textColor="@color/nothing_black" android:textSize="9sp" android:fontFamily="monospace"/>
+                        <TextView
+                            android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:id="@+id/tvDetailMinMax" android:text="--/--" android:textColor="@color/nothing_black" android:textSize="11sp" android:textStyle="bold" android:fontFamily="monospace"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- 2. Humidity (Dark) -->
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center">
+                    <LinearLayout android:layout_width="72dp" android:layout_height="72dp" android:background="@drawable/bg_circle_dark" android:gravity="center" android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="HUMID" android:textColor="@color/nothing_gray_text" android:textSize="9sp" android:fontFamily="monospace"/>
+                        <TextView
+                            android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:id="@+id/tvDetailHumid" android:text="--" android:textColor="@color/nothing_white" android:textSize="16sp" android:textStyle="bold" android:fontFamily="monospace"/>
+                        <TextView
+                            android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="%" android:textColor="@color/nothing_gray_text" android:textSize="9sp" android:fontFamily="monospace"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- 3. Wind Speed (Dark) -->
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center">
+                    <LinearLayout android:layout_width="72dp" android:layout_height="72dp" android:background="@drawable/bg_circle_dark" android:gravity="center" android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="WIND" android:textColor="@color/nothing_gray_text" android:textSize="9sp" android:fontFamily="monospace"/>
+                        <TextView
+                            android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:id="@+id/tvDetailWind" android:text="--" android:textColor="@color/nothing_white" android:textSize="16sp" android:textStyle="bold" android:fontFamily="monospace"/>
+                        <TextView
+                            android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="KM/H" android:textColor="@color/nothing_gray_text" android:textSize="9sp" android:fontFamily="monospace"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- 4. Wind Direction (WD) -->
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center">
+                    <LinearLayout android:layout_width="72dp" android:layout_height="72dp" android:background="@drawable/bg_circle_dark" android:gravity="center" android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="DIR" android:textColor="@color/nothing_gray_text" android:textSize="9sp" android:fontFamily="monospace"/>
+                        <TextView
+                            android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:id="@+id/tvDetailWd" android:text="--" android:textColor="@color/nothing_white" android:textSize="14sp" android:textStyle="bold" android:fontFamily="monospace"/>
+                        <TextView
+                            android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="CMP" android:textColor="@color/nothing_gray_text" android:textSize="9sp" android:fontFamily="monospace"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- ROW 2 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+                <!-- 5. Precipitation / TP (Dark) -->
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center">
+                    <LinearLayout android:layout_width="72dp" android:layout_height="72dp" android:background="@drawable/bg_circle_dark" android:gravity="center" android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="PREC" android:textColor="@color/nothing_gray_text" android:textSize="9sp" android:fontFamily="monospace"/>
+                        <TextView
+                            android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:id="@+id/tvDetailTp" android:text="0" android:textColor="@color/nothing_white" android:textSize="16sp" android:textStyle="bold" android:fontFamily="monospace"/>
+                        <TextView
+                            android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="MM" android:textColor="@color/nothing_gray_text" android:textSize="9sp" android:fontFamily="monospace"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- 6. Visibility / VS (Dark) -->
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center">
+                    <LinearLayout android:layout_width="72dp" android:layout_height="72dp" android:background="@drawable/bg_circle_dark" android:gravity="center" android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="VIS" android:textColor="@color/nothing_gray_text" android:textSize="9sp" android:fontFamily="monospace"/>
+                        <TextView
+                            android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:id="@+id/tvDetailVs" android:text="--" android:textColor="@color/nothing_white" android:textSize="12sp" android:textStyle="bold" android:fontFamily="monospace" android:ellipsize="end" android:maxLines="1"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- 7. Rain Chance (Red) -->
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center">
+                    <LinearLayout android:layout_width="72dp" android:layout_height="72dp" android:background="@drawable/bg_circle_red" android:gravity="center" android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="CHANCE" android:textColor="#FFCCCC" android:textSize="8sp" android:fontFamily="monospace"/>
+                        <TextView
+                            android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:id="@+id/tvDetailRainChance" android:text="--" android:textColor="@color/nothing_white" android:textSize="16sp" android:textStyle="bold" android:fontFamily="monospace"/>
+                        <TextView
+                            android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="%" android:textColor="#FFCCCC" android:textSize="9sp" android:fontFamily="monospace"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- 8. UV (Dark) -->
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center">
+                    <LinearLayout android:layout_width="72dp" android:layout_height="72dp" android:background="@drawable/bg_circle_dark" android:gravity="center" android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="UV" android:textColor="@color/nothing_gray_text" android:textSize="9sp" android:fontFamily="monospace"/>
+                        <TextView
+                            android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="LOW" android:textColor="@color/nothing_white" android:textSize="16sp" android:textStyle="bold" android:fontFamily="monospace"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <!-- 12 HOURS FORECAST -->
+        <TextView
+            android:text="12 HOURS FORECAST"
+            android:textColor="@color/nothing_white"
+            android:textSize="12sp"
+            android:fontFamily="monospace"
+            android:textAllCaps="true"
+            android:layout_marginBottom="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- Bagian 12 Hours Forecast dengan Glass Blur -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_glass_blur"
+            android:paddingVertical="20dp"
+            android:paddingHorizontal="8dp"
+            android:layout_marginBottom="24dp">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvJam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                tools:listitem="@layout/item_weather_hour"/>
+        </LinearLayout>
+
+
+        <!-- 7 DAYS FORECAST -->
+        <TextView
+            android:id="@+id/tvDailyTitle"
+            android:text="7 DAYS FORECAST"
+            android:textColor="@color/nothing_white"
+            android:textSize="12sp"
+            android:fontFamily="monospace"
+            android:textAllCaps="true"
+            android:layout_marginBottom="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- Bagian 7 Days Forecast dengan Glass Blur -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_glass_blur"
+            android:padding="16dp">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvDaily"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="false"
+                android:orientation="vertical"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                tools:listitem="@layout/item_daily_forecast"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

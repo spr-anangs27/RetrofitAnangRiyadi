@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/nothing_black"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/tvListTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEARCH LOCATION"
+        android:fontFamily="monospace"
+        android:textColor="@color/nothing_gray_text"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- SEARCH BAR -->
+    <EditText
+        android:id="@+id/etSearch"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_nothing_input"
+        android:hint="Type city &amp; enter..."
+        android:textColorHint="@color/nothing_gray_text"
+        android:textColor="@color/nothing_white"
+        android:paddingHorizontal="20dp"
+        android:fontFamily="monospace"
+        android:textSize="14sp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:imeOptions="actionSearch"
+        android:layout_marginBottom="20dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvLokasi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:nestedScrollingEnabled="false"/>
+
+</LinearLayout>

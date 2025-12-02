@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingHorizontal="20dp"
+    android:paddingVertical="16dp"
+    android:background="@drawable/bg_glass_card"
+    android:layout_marginBottom="8dp">
+
+    <!-- Nama Lokasi -->
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Location Name"
+        android:textSize="14sp"
+        android:fontFamily="monospace"
+        android:textColor="@color/nothing_white"
+        android:textAllCaps="true"
+        android:letterSpacing="0.05" />
+
+    <!-- Kode Wilayah (Opsional) -->
+    <TextView
+        android:id="@+id/tvCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Code: XX.XX.XX.XXXX"
+        android:textSize="10sp"
+        android:fontFamily="monospace"
+        android:textColor="@color/nothing_gray_text"
+        android:visibility="visible" />
+
+</LinearLayout>

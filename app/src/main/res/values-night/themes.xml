@@ -1,0 +1,35 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Retrofit" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color (Nothing OS Black) -->
+        <item name="colorPrimary">@color/nothing_black</item>
+        <item name="colorPrimaryVariant">@color/nothing_black</item>
+        <item name="colorOnPrimary">@color/nothing_white</item>
+
+        <!-- Secondary brand color (Nothing OS Red) -->
+        <item name="colorSecondary">@color/nothing_red</item>
+        <item name="colorSecondaryVariant">@color/nothing_red</item>
+        <item name="colorOnSecondary">@color/nothing_white</item>
+
+        <!-- Status bar color (Hitam Pekat) -->
+        <item name="android:statusBarColor">@color/nothing_black</item>
+        <!-- Icon status bar (Jam/Baterai) jadi Putih -->
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- Font Global: Monospace (Khas Nothing OS) -->
+        <item name="android:fontFamily">monospace</item>
+        <item name="fontFamily">monospace</item>
+    </style>
+
+    <!-- INI YANG HILANG SEBELUMNYA -->
+    <!-- Definisi Theme.Retrofit.NoActionBar agar AndroidManifest tidak Error -->
+    <style name="Theme.Retrofit.NoActionBar" parent="Theme.Retrofit">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+    </style>
+
+    <!-- Overlay Themes (Standar) -->
+    <style name="Theme.Retrofit.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.Retrofit.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

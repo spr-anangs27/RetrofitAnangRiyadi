@@ -1,0 +1,624 @@
+[
+  {
+    "id": "33.27.08.1004",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Pemalang",
+    "desa": "Paduraksa"
+  },
+  {
+    "id": "33.27.08.1013",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Pemalang",
+    "desa": "Kebondalem"
+  },
+  {
+    "id": "33.27.08.1014",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Pemalang",
+    "desa": "Bojongbata"
+  },
+  {
+    "id": "33.27.08.1015",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Pemalang",
+    "desa": "Mulyoharjo"
+  },
+  {
+    "id": "33.27.08.1016",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Pemalang",
+    "desa": "Pelutan"
+  },
+  {
+    "id": "33.27.08.1018",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Pemalang",
+    "desa": "Sugihwaras"
+  },
+  {
+    "id": "33.27.08.1019",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Pemalang",
+    "desa": "Widuri"
+  },
+  {
+    "id": "33.27.08.2001",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Pemalang",
+    "desa": "Banjarmulya"
+  },
+  {
+    "id": "33.27.08.2002",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Pemalang",
+    "desa": "Surajaya"
+  },
+  {
+    "id": "33.27.08.2003",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Pemalang",
+    "desa": "Kramat"
+  },
+  {
+    "id": "33.27.08.2005",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Pemalang",
+    "desa": "Pagongsoran"
+  },
+  {
+    "id": "33.27.08.2006",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Pemalang",
+    "desa": "Sungapan"
+  },
+  {
+    "id": "33.27.08.2008",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Pemalang",
+    "desa": "Sewaka"
+  },
+  {
+    "id": "33.27.08.2012",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Pemalang",
+    "desa": "Tambakrejo"
+  },
+  {
+    "id": "33.27.08.2011",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Pemalang",
+    "desa": "Bojongnangka"
+  },
+  {
+    "id": "33.27.08.2009",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Pemalang",
+    "desa": "Mengori"
+  },
+  {
+    "id": "33.27.09.2001",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Taman",
+    "desa": "Penggarit",
+    "lat": -6.9300,
+    "lon": 109.4000
+  },
+  {
+    "id": "33.27.09.2002",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Taman",
+    "desa": "Pener",
+    "lat": -6.9350,
+    "lon": 109.4100
+  },
+  {
+    "id": "33.27.09.2006",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Taman",
+    "desa": "Kejambon",
+    "lat": -6.9250,
+    "lon": 109.4050
+  },
+  {
+    "id": "33.27.09.2012",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Taman",
+    "desa": "Banjardawa",
+    "lat": -6.8950,
+    "lon": 109.4050
+  },
+  {
+    "id": "33.27.09.1018",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Taman",
+    "desa": "Beji",
+    "lat": -6.9000,
+    "lon": 109.4000
+  },
+  {
+    "id": "33.27.09.1019",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Taman",
+    "desa": "Wanarejan Selatan",
+    "lat": -6.9100,
+    "lon": 109.4100
+  },
+  {
+    "id": "33.27.10.1006",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Petarukan",
+    "desa": "Petarukan",
+    "lat": -6.8900,
+    "lon": 109.4500
+  },
+  {
+    "id": "33.27.10.2005",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Petarukan",
+    "desa": "Serang",
+    "lat": -6.8850,
+    "lon": 109.4600
+  },
+  {
+    "id": "33.27.10.2017",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Petarukan",
+    "desa": "Nyamplung Sari",
+    "lat": -6.8500,
+    "lon": 109.4500
+  },
+  {
+    "id": "33.27.12.2008",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Comal",
+    "desa": "Ambokulon"
+  },
+  {
+    "id": "33.27.12.2009",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Comal",
+    "desa": "Gandu"
+  },
+  {
+    "id": "33.27.12.2010",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Comal",
+    "desa": "Gedeg"
+  },
+  {
+    "id": "33.27.12.2011",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Comal",
+    "desa": "Gintung"
+  },
+  {
+    "id": "33.27.12.2017",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Comal",
+    "desa": "Kandang"
+  },
+  {
+    "id": "33.27.12.2018",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Comal",
+    "desa": "Kauman"
+  },
+  {
+    "id": "33.27.12.2016",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Comal",
+    "desa": "Kebojongan"
+  },
+  {
+    "id": "33.27.12.2014",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Comal",
+    "desa": "Klegen"
+  },
+  {
+    "id": "33.27.12.2007",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Comal",
+    "desa": "Lowa"
+  },
+  {
+    "id": "33.27.12.2002",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Comal",
+    "desa": "Pecangakan"
+  },
+  {
+    "id": "33.27.12.2004",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Comal",
+    "desa": "Purwosari"
+  },
+  {
+    "id": "33.27.12.2012",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Comal",
+    "desa": "Sarwodadi"
+  },
+  {
+    "id": "33.27.12.2006",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Comal",
+    "desa": "Sidorejo"
+  },
+  {
+    "id": "33.27.12.2003",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Comal",
+    "desa": "Sikayu"
+  },
+  {
+    "id": "33.27.12.2013",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Comal",
+    "desa": "Susukan"
+  },
+  {
+    "id": "33.27.12.2001",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Comal",
+    "desa": "Tumbal"
+  },
+  {
+    "id": "33.27.12.2015",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Comal",
+    "desa": "Wonokromo"
+  },
+  {
+    "id": "33.27.12.1005",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Comal",
+    "desa": "Purwoharjo"
+  },
+  {
+    "id": "33.27.07.2001",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Randudongkal",
+    "desa": "Randudongkal",
+    "lat": -7.1000,
+    "lon": 109.3200
+  },
+  {
+    "id": "33.27.07.2002",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Randudongkal",
+    "desa": "Banjaranyar",
+    "lat": -7.1050,
+    "lon": 109.3250
+  },
+  {
+    "id": "33.27.01.2001",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Moga",
+    "desa": "Plakaran"
+  },
+  {
+    "id": "33.27.01.2002",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Moga",
+    "desa": "Mandiraja"
+  },
+  {
+    "id": "33.27.01.2003",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Moga",
+    "desa": "Walangsanga"
+  },
+  {
+    "id": "33.27.01.2004",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Moga",
+    "desa": "Sima"
+  },
+  {
+    "id": "33.27.01.2005",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Moga",
+    "desa": "Moga"
+  },
+  {
+    "id": "33.27.01.2006",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Moga",
+    "desa": "Banyumudal"
+  },
+  {
+    "id": "33.27.01.2007",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Moga",
+    "desa": "Gendowang"
+  },
+  {
+    "id": "33.27.01.2008",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Moga",
+    "desa": "Kebanggan"
+  },
+  {
+    "id": "33.27.01.2009",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Moga",
+    "desa": "Pepedan"
+  },
+  {
+    "id": "33.27.01.2010",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Moga",
+    "desa": "Gendoang"
+  },
+  {
+    "id": "33.27.02.2001",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Pulosari",
+    "desa": "Pulosari",
+    "lat": -7.1800,
+    "lon": 109.2500
+  },
+  {
+    "id": "33.27.03.2001",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Belik",
+    "desa": "Gombong"
+  },
+  {
+    "id": "33.27.03.2002",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Belik",
+    "desa": "Belik"
+  },
+  {
+    "id": "33.27.03.2003",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Belik",
+    "desa": "Gunungtiga"
+  },
+  {
+    "id": "33.27.03.2004",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Belik",
+    "desa": "Kuta"
+  },
+  {
+    "id": "33.27.03.2005",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Belik",
+    "desa": "Badak"
+  },
+  {
+    "id": "33.27.03.2006",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Belik",
+    "desa": "Simpur"
+  },
+  {
+    "id": "33.27.03.2007",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Belik",
+    "desa": "Gunungjaya"
+  },
+  {
+    "id": "33.27.03.2008",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Belik",
+    "desa": "Beluk"
+  },
+  {
+    "id": "33.27.03.2009",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Belik",
+    "desa": "Bulakan"
+  },
+  {
+    "id": "33.27.04.2001",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Watukumpul",
+    "desa": "Watukumpul",
+    "lat": -7.1900,
+    "lon": 109.4500
+  },
+  {
+    "id": "33.27.06.2001",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Bantarbolang",
+    "desa": "Sumurkidang"
+  },
+  {
+    "id": "33.27.06.2002",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Bantarbolang",
+    "desa": "Wanarata"
+  },
+  {
+    "id": "33.27.06.2003",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Bantarbolang",
+    "desa": "Pedagung"
+  },
+  {
+    "id": "33.27.06.2004",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Bantarbolang",
+    "desa": "Suru"
+  },
+  {
+    "id": "33.27.06.2005",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Bantarbolang",
+    "desa": "Banjarsari"
+  },
+  {
+    "id": "33.27.06.2006",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Bantarbolang",
+    "desa": "Pegiringan"
+  },
+  {
+    "id": "33.27.06.2007",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Bantarbolang",
+    "desa": "Karanganyar",
+    "lat": -7.05417,
+    "lon": 109.39417
+  },
+  {
+    "id": "33.27.06.2008",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Bantarbolang",
+    "desa": "Purana"
+  },
+  {
+    "id": "33.27.06.2009",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Bantarbolang",
+    "desa": "Pabuaran"
+  },
+  {
+    "id": "33.27.06.2010",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Bantarbolang",
+    "desa": "Sarwodadi"
+  },
+  {
+    "id": "33.27.06.2011",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Bantarbolang",
+    "desa": "Bantarbolang",
+    "lat": -7.03611,
+    "lon": 109.39389
+  },
+  {
+    "id": "33.27.06.2012",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Bantarbolang",
+    "desa": "Sambeng"
+  },
+  {
+    "id": "33.27.06.2013",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Bantarbolang",
+    "desa": "Glandang"
+  },
+  {
+    "id": "33.27.06.2014",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Bantarbolang",
+    "desa": "Kuta"
+  },
+  {
+    "id": "33.27.06.2015",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Bantarbolang",
+    "desa": "Kebon Gede",
+    "lat": -7.01889,
+    "lon": 109.39306
+  },
+  {
+    "id": "33.27.06.2016",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Bantarbolang",
+    "desa": "Paguyangan"
+  },
+  {
+    "id": "33.27.06.2017",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Bantarbolang",
+    "desa": "Lenggerong"
+  },
+  {
+    "id": "33.27.13.2001",
+    "provinsi": "Jawa Tengah",
+    "kotkab": "Pemalang",
+    "kecamatan": "Ulujami",
+    "desa": "Ulujami",
+    "lat": -6.8700,
+    "lon": 109.5600
+  }
+]

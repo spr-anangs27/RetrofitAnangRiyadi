@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingVertical="16dp"
+    android:gravity="center_vertical">
+
+    <!-- Hari (TODAY, MON, TUE) -->
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:text="TODAY"
+        android:textSize="14sp"
+        android:fontFamily="monospace"
+        android:textAllCaps="true"
+        android:textColor="@color/nothing_gray_text" />
+
+    <!-- Icon -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/ivIconDay"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@android:drawable/ic_menu_day"
+            app:tint="@color/white" />
+
+        <!-- Rain Chance (Small Red Text) -->
+        <TextView
+            android:id="@+id/tvRainChance"
+            android:text="10%"
+            android:textSize="10sp"
+            android:fontFamily="monospace"
+            android:textColor="@color/nothing_red"
+            android:layout_marginStart="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <!-- Suhu (Max/Min) -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvMaxTemp"
+            android:text="32°"
+            android:textSize="14sp"
+            android:fontFamily="monospace"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tvMinTemp"
+            android:text="24°"
+            android:textSize="14sp"
+            android:fontFamily="monospace"
+            android:textColor="@color/nothing_gray_text"
+            android:layout_marginStart="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <!-- Compatibility (Hidden) -->
+    <TextView android:id="@+id/tvTempMaxMin" android:visibility="gone" android:layout_width="0dp" android:layout_height="0dp"/>
+    <TextView android:id="@+id/tvWeatherDesc" android:visibility="gone" android:layout_width="0dp" android:layout_height="0dp"/>
+
+</LinearLayout>

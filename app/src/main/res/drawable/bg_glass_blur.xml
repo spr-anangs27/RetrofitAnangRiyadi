@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background dengan transparansi -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#26FFFFFF"/> <!-- 15% opacity -->
+            <corners android:radius="24dp"/>
+        </shape>
+    </item>
+    <!-- Border -->
+    <item>
+        <shape android:shape="rectangle">
+            <stroke
+                android:width="1dp"
+                android:color="#40FFFFFF"/> <!-- 25% opacity -->
+            <corners android:radius="24dp"/>
+        </shape>
+    </item>
+</layer-list>
